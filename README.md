@@ -33,14 +33,16 @@ into this project.
 | `redesign-existing-projects` | ✅ Installed | Audit-first upgrade of an *existing* site/app to premium quality without breaking functionality. |
 
 ### 📋 Watchlist — found, not yet added (needs review before adding)
-| Skill | Link | Why it's not a drop-in `.claude/skills/` folder |
-|---|---|---|
-| UI/UX Pro Max | https://github.com/nextlevelbuilder/ui-ux-pro-max-skill | Full CLI tool, not a single skill file — installs via `npx ui-ux-pro-max-cli init --ai claude` per project. 79 UI styles / 192 palettes / 74 font pairings. Strong for a brand-new project's design system from scratch; risk of clashing with an already-set brand (e.g. The Spot's own site). |
-| Awesome Claude Design | https://github.com/VoltAgent/awesome-claude-design | Not a Claude Code skill — a collection of `DESIGN.md` files for the separate `claude.ai/design` web tool. Different workflow, browser-based. Useful as inspiration reference only. |
-| TypeUI DESIGN.md Chrome Extension | https://github.com/bergside/design-md-chrome | Not a Claude Code skill — a Chrome extension that extracts design tokens from any live website into a DESIGN.md/SKILL.md. Useful for competitor/inspiration research, installed manually in Chrome (Developer Mode → Load unpacked). Un-official extension — grants broad site-read permission. |
+Not a drop-in `.claude/skills/` folder, so kept out of the flat skills folder above. Each is backed up as a full fork under `thespotagency` (all branches) in case the original ever disappears.
+
+| Skill | Original | Backup fork | Why it's not a drop-in `.claude/skills/` folder |
+|---|---|---|---|
+| UI/UX Pro Max | https://github.com/nextlevelbuilder/ui-ux-pro-max-skill | https://github.com/thespotagency/ui-ux-pro-max-skill | Full CLI tool, not a single skill file — installs via `npx ui-ux-pro-max-cli init --ai claude` per project. 79 UI styles / 192 palettes / 74 font pairings. Strong for a brand-new project's design system from scratch; risk of clashing with an already-set brand (e.g. The Spot's own site). |
+| Awesome Claude Design | https://github.com/VoltAgent/awesome-claude-design | https://github.com/thespotagency/awesome-claude-design | Not a Claude Code skill — a collection of `DESIGN.md` files for the separate `claude.ai/design` web tool. Different workflow, browser-based. Useful as inspiration reference only. |
+| TypeUI DESIGN.md Chrome Extension | https://github.com/bergside/design-md-chrome | https://github.com/thespotagency/design-md-chrome | Not a Claude Code skill — a Chrome extension that extracts design tokens from any live website into a DESIGN.md/SKILL.md. Useful for competitor/inspiration research, installed manually in Chrome (Developer Mode → Load unpacked). Un-official extension — grants broad site-read permission. |
 
 ## Adding a new skill
 
 1. Confirm it's a plain `.claude/skills/<name>/SKILL.md` (optionally + `references/` / `workflows/`) — that's the only format that copies cleanly into a new project with the one-liner above.
 2. Drop it straight into `.claude/skills/<name>/` — flat, no category folder.
-3. Add one row to the matching category table above (or a new category heading if it doesn't fit an existing one). If it doesn't qualify (CLI tool, browser extension, web-only workflow), add it to the Watchlist table instead with a one-line reason.
+3. Add one row to the matching category table above (or a new category heading if it doesn't fit an existing one). If it doesn't qualify (CLI tool, browser extension, web-only workflow), add it to the Watchlist table instead with a one-line reason, and fork it (all branches) to `thespotagency` as a backup.
