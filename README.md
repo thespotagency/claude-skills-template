@@ -66,6 +66,7 @@ Not a drop-in `.claude/skills/` folder, so kept out of the flat skills folder ab
 |---|---|---|---|
 | Awesome Claude Design | https://github.com/VoltAgent/awesome-claude-design | https://github.com/thespotagency/awesome-claude-design | Not a Claude Code skill — a collection of `DESIGN.md` files for the separate `claude.ai/design` web tool. Different workflow, browser-based. Useful as inspiration reference only. |
 | TypeUI DESIGN.md Chrome Extension | https://github.com/bergside/design-md-chrome | https://github.com/thespotagency/design-md-chrome | Not a Claude Code skill — a Chrome extension that extracts design tokens from any live website into a DESIGN.md/SKILL.md. Useful for competitor/inspiration research, installed manually in Chrome (Developer Mode → Load unpacked). Un-official extension — grants broad site-read permission. |
+| Matt Pocock's Skills | https://github.com/mattpocock/skills | ⚠️ fork pending — GitHub App lacks org repo-create scope, fork manually if needed | Off-scope + wrong shape: this is an **Engineering + Productivity** skill pack (debug, code-review, standup, etc.), not design — and its files live at `skills/<category>/<name>/SKILL.md` (category-nested), not the flat `.claude/skills/<name>/SKILL.md` this template requires. |
 
 ## Adding a new skill
 
